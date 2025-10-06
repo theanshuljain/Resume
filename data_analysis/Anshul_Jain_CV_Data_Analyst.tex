@@ -1,0 +1,181 @@
+\documentclass[a4paper,9pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fontawesome}
+\usepackage{ragged2e}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\definecolor{darkgreen}{rgb}{0.0, 0.5, 0.0}
+
+\addtolength{\oddsidemargin}{-0.65in}
+\addtolength{\evensidemargin}{-0.65in}
+\addtolength{\textwidth}{1.3in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.3in}
+
+\linespread{0.9}
+\urlstyle{rm}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+    \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%----------------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+    \item\small{
+        #1 \vspace{-2pt}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+        \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+            \textbf{#1} & #2 \\
+            \textit{#3} & \textit{#4} \\
+        \end{tabular*}\vspace{-5pt}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------------------
+% CV Starts
+
+\begin{document}
+
+%-----------------------------------------
+% Heading
+
+\begin{center}
+    \textbf{{\LARGE Anshul Jain}} \\
+    \vspace{3pt}
+    \scriptsize{
+        \faLinkedin \hspace{2pt} \textcolor{blue}
+        {\href{https://www.linkedin.com/in/theanshuljain/}{anshul-jain}} \hspace{5pt}
+        \faGithub \hspace{2pt} \textcolor{blue}
+        {\href{https://github.com/theanshuljain}{Anshul-Jain}} \hspace{5pt}
+        \faEnvelope \hspace{2pt} \textcolor{blue}{\href{mailto:anshuljain6598@gmail.com}{anshuljain6598@gmail.com}} \hspace{5pt}
+        \faPhone \hspace{2pt} +1 (206) 600-1808 \hspace{5pt}
+        \faMapMarker \hspace{2pt} Boulder, CO, USA
+  }
+\end{center}
+
+%------------------------------------------
+% Objective
+
+\section{Objective}
+\begin{justify}
+Driven and hardworking professional with a strong foundation in Engineering Mathematics, Physics, and System Design. As a Graduate Aerospace Engineer and passionate educator, I am eager to take on new challenges that allow me to utilize my skills in strategic planning, training and development, relationship building, and project management. Proven ability to lead cross-functional teams, mentor peers, and simplify complex technical concepts into accessible lessons and hands-on demonstrations. Committed to showing up as my authentic self, following my passions, and adding meaningful value to every role I undertake. Seeking teaching opportunities where I can use my background and expertise to inspire curiosity, analytical thinking, and a lifelong love for learning in students.
+\end{justify}
+
+%------------------------------------------
+% Education
+
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Colorado Boulder}{Aug 2023 – Dec 2025}
+{Master’s in Aerospace Engineering Sciences}{Boulder, CO}
+
+\resumeSubheading
+{R. V. College of Engineering}{Aug 2019 – Apr 2023}
+{Bachelor’s in Aerospace Engineering}{Bengaluru, India}
+
+\resumeSubHeadingListEnd
+
+\textbf{Programming and Tools:} MATLAB, Simulink, Python, C, C++, JavaScript, R, VS Code, Git, GitHub, Canvas.
+
+%-------------------------------------------
+% Research Experience
+\section{Research Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Co-Author, 73rd International Astronautical Congress}{Nov 2021 – Sept 2022}
+{Team Antariksh}{Bengaluru, India}
+\resumeItemListStart
+\resumeItemWithoutTitle{Vageesha S, Darpan B, Trisha A, Anshul Jain, Greeshma A, Rithwik R, “Study of Drag Characteristics of a Parachute for landing on planets and moons with different atmospheric conditions and its optimization using gases with varying properties”.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+% Awards and Recognition
+\section{Awards and Recognition}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{SAARTHAKA Trust Scholarship}{Jan 2020}
+{R. V. College of Engineering}{Bengaluru, India}
+\resumeItemListStart
+\resumeItemWithoutTitle{Awarded for securing \textbf{Rank 1 in Aerospace Engineering (2019)} among all first-year students.}
+\resumeItemListEnd
+
+\resumeSubheading
+{E-Summit Business Marathon – 1st Place}{July 2022}
+{R. V. College of Engineering}{Bengaluru, India}
+\resumeItemListStart
+\resumeItemWithoutTitle{Ranked \textbf{1st out of 32 teams} for developing a service-based transport solution addressing damaged road infrastructure in hilly regions during monsoon conditions.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+% Volunteer Experience
+\section{Volunteer Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Emcee – Faculty Development Program (FDP)}{May 2022}
+{R. V. College of Engineering}{Bengaluru, India}
+\resumeItemListStart
+\resumeItemWithoutTitle{Coordinated a 5-day FDP on Machine Learning applications in Aerospace Engineering, facilitating sessions, managing logistics, and ensuring smooth communication between faculty and participants.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Emcee – RSS Vishwa Sangh Shibir}{Dec 2015}
+{Rashtriya Swayamsevak Sangh}{Indore, India}
+\resumeItemListStart
+\resumeItemWithoutTitle{Served as the Tamil-language Emcee for the international conference, engaging with delegates from 45+ countries after rapidly acquiring conversational proficiency in the language.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+% Languages
+\section{Languages}
+\resumeItemListStart
+\resumeItemWithoutTitle{English: Professional Proficiency}
+\resumeItemWithoutTitle{Hindi: Native Proficiency}
+\resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
